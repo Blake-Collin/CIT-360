@@ -1,0 +1,60 @@
+Input City for Weather Conditions: rexburg
+WeatherConditions{id=5605242, name='Rexburg', measurements={temp=45.82, pressure=1013.0, humidity=76.0, temp_min=42.8, temp_max=48.2}}
+Input City for Weather Forecast: rexburg
+WeatherForecast for Rexburg:
+WeatherForecastItem{Time='2019-05-08 06:00:00', Temp=40.15, [Description='overcast clouds'], Wind Speed=13.44}
+WeatherForecastItem{Time='2019-05-08 09:00:00', Temp=39.04, [Description='overcast clouds'], Wind Speed=15.52}
+WeatherForecastItem{Time='2019-05-08 12:00:00', Temp=38.84, [Description='broken clouds'], Wind Speed=13.89}
+WeatherForecastItem{Time='2019-05-08 15:00:00', Temp=47.87, [Description='clear sky'], Wind Speed=17.76}
+WeatherForecastItem{Time='2019-05-08 18:00:00', Temp=55.47, [Description='clear sky'], Wind Speed=16.6}
+WeatherForecastItem{Time='2019-05-08 21:00:00', Temp=58.5, [Description='scattered clouds'], Wind Speed=14.63}
+WeatherForecastItem{Time='2019-05-09 00:00:00', Temp=57.09, [Description='broken clouds'], Wind Speed=15.75}
+WeatherForecastItem{Time='2019-05-09 03:00:00', Temp=49.35, [Description='scattered clouds'], Wind Speed=12.66}
+WeatherForecastItem{Time='2019-05-09 06:00:00', Temp=43.79, [Description='few clouds'], Wind Speed=15.1}
+WeatherForecastItem{Time='2019-05-09 09:00:00', Temp=39.11, [Description='clear sky'], Wind Speed=8.52}
+WeatherForecastItem{Time='2019-05-09 12:00:00', Temp=36.41, [Description='clear sky'], Wind Speed=8.23}
+WeatherForecastItem{Time='2019-05-09 15:00:00', Temp=44.33, [Description='scattered clouds'], Wind Speed=12.08}
+WeatherForecastItem{Time='2019-05-09 18:00:00', Temp=52.97, [Description='broken clouds'], Wind Speed=9.1}
+WeatherForecastItem{Time='2019-05-09 21:00:00', Temp=55.29, [Description='overcast clouds'], Wind Speed=2.57}
+WeatherForecastItem{Time='2019-05-10 00:00:00', Temp=54.77, [Description='overcast clouds'], Wind Speed=2.3}
+WeatherForecastItem{Time='2019-05-10 03:00:00', Temp=48.11, [Description='light rain'], Wind Speed=5.17}
+WeatherForecastItem{Time='2019-05-10 06:00:00', Temp=45.05, [Description='light rain'], Wind Speed=4.59}
+WeatherForecastItem{Time='2019-05-10 09:00:00', Temp=38.92, [Description='scattered clouds'], Wind Speed=7.2}
+WeatherForecastItem{Time='2019-05-10 12:00:00', Temp=35.75, [Description='few clouds'], Wind Speed=7.58}
+WeatherForecastItem{Time='2019-05-10 15:00:00', Temp=43.98, [Description='clear sky'], Wind Speed=6.29}
+WeatherForecastItem{Time='2019-05-10 18:00:00', Temp=53.52, [Description='clear sky'], Wind Speed=2.21}
+WeatherForecastItem{Time='2019-05-10 21:00:00', Temp=59.95, [Description='clear sky'], Wind Speed=1.74}
+WeatherForecastItem{Time='2019-05-11 00:00:00', Temp=62.3, [Description='clear sky'], Wind Speed=3.89}
+WeatherForecastItem{Time='2019-05-11 03:00:00', Temp=55.38, [Description='clear sky'], Wind Speed=4.38}
+WeatherForecastItem{Time='2019-05-11 06:00:00', Temp=49.36, [Description='scattered clouds'], Wind Speed=5.46}
+WeatherForecastItem{Time='2019-05-11 09:00:00', Temp=45.09, [Description='broken clouds'], Wind Speed=6.93}
+WeatherForecastItem{Time='2019-05-11 12:00:00', Temp=42.45, [Description='scattered clouds'], Wind Speed=6.51}
+WeatherForecastItem{Time='2019-05-11 15:00:00', Temp=50.74, [Description='clear sky'], Wind Speed=5.59}
+WeatherForecastItem{Time='2019-05-11 18:00:00', Temp=61.43, [Description='clear sky'], Wind Speed=0.58}
+WeatherForecastItem{Time='2019-05-11 21:00:00', Temp=66.65, [Description='clear sky'], Wind Speed=4.74}
+WeatherForecastItem{Time='2019-05-12 00:00:00', Temp=68.45, [Description='clear sky'], Wind Speed=5.77}
+WeatherForecastItem{Time='2019-05-12 03:00:00', Temp=60.53, [Description='scattered clouds'], Wind Speed=7.05}
+WeatherForecastItem{Time='2019-05-12 06:00:00', Temp=55.05, [Description='scattered clouds'], Wind Speed=2.17}
+WeatherForecastItem{Time='2019-05-12 09:00:00', Temp=50.75, [Description='broken clouds'], Wind Speed=5.68}
+WeatherForecastItem{Time='2019-05-12 12:00:00', Temp=46.89, [Description='broken clouds'], Wind Speed=5.14}
+WeatherForecastItem{Time='2019-05-12 15:00:00', Temp=54.77, [Description='broken clouds'], Wind Speed=4.36}
+WeatherForecastItem{Time='2019-05-12 18:00:00', Temp=64.49, [Description='broken clouds'], Wind Speed=5.61}
+WeatherForecastItem{Time='2019-05-12 21:00:00', Temp=70.64, [Description='broken clouds'], Wind Speed=7.29}
+WeatherForecastItem{Time='2019-05-13 00:00:00', Temp=71.46, [Description='scattered clouds'], Wind Speed=6.11}
+WeatherForecastItem{Time='2019-05-13 03:00:00', Temp=62.69, [Description='scattered clouds'], Wind Speed=3.22}
+
+Highest Wind Speeds:
+Idaho Falls Wind Speed: 21.81
+Blackfoot Wind Speed: 21.81
+Pocatello Wind Speed: 19.98
+Rexburg Wind Speed: 17.76
+Bosie Wind Speed: 10.58
+
+Highest Temps:
+Pocatello Temp: 75.14
+Idaho Falls Temp: 72.36
+Blackfoot Temp: 72.36
+Rexburg Temp: 71.46
+Bosie Temp: 61.83
+
+Process finished with exit code 0
