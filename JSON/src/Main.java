@@ -31,7 +31,7 @@ public class Main {
 
   // Variable
   private static Scanner scanner = new Scanner(System.in);
-  // Must provide a OpenWeatherMap api (This has been deleted for security)
+  // Must provide a OpenWeatherMap api (This has been deleted for security see above for link)
   private static String api = "";
 
   public static void main(String args[]) {
