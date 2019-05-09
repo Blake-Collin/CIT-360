@@ -16,7 +16,12 @@ import java.util.Map.Entry;
 import java.util.Scanner;
 
 /**
- * Contains all test functions for our weather objects conditions, forecast etc.
+ * Created weather functions to pull in Jsons and do different things with them creating objects to
+ * use the data etc. Also created a simple game with player to generate a JSON object. (I didn't
+ * make this write to file just output the Json as a string to terminal for display purposes.
+ *
+ * <p>NOTE: You will need to provide a OpenWeatherMap API I noted this below but wanted to double
+ * note this here. URL: https://openweathermap.org/
  *
  * @author Collin Blake
  * @since 5-7-2019
@@ -26,18 +31,45 @@ public class Main {
 
   // Variable
   private static Scanner scanner = new Scanner(System.in);
-  // Must be provided by coder
-  private static String api = "";
+  // Must provide a OpenWeatherMap api (This has been deleted for security)
+  private static String api = "53788e522a20fc3ec2b53601f2dc02d7";
 
   public static void main(String args[]) {
+
+    // First three tests will be for reaching Json from the web and creating objects from them
     // Test WeatherConditions
-    weatherConditionsTest();
+    // weatherConditionsTest();
 
     // Test WeatherForecast
-    weatherForecastTest();
+    // weatherForecastTest();
 
     // 5 City Test
-    weatherFiveCityTest();
+    // weatherFiveCityTest();
+
+    // Creating a json from a couple classes
+    // Character Generate into Json from Game
+    jsonCreationTest();
+  }
+
+  /** Test for Game for Player to Json */
+  private static void jsonCreationTest() {
+    Player newPlayer = new Player("Johnny Danger");
+
+    newPlayer.addEquipment("Hat", 25);
+    newPlayer.addEquipment("Coat", 235);
+    newPlayer.addEquipment("Longsword", 50);
+    newPlayer.addEquipment("Lute", 65000);
+    newPlayer.addEquipment("Rations", 5);
+    newPlayer.addEquipment("Silver Ring", 50);
+
+    newPlayer.addFriends("Johnny Quest");
+    newPlayer.addFriends("Johnny Five");
+    newPlayer.addFriends("Steve Johnson");
+    newPlayer.addFriends("Bob Barker");
+
+    Game newGame = new Game(newPlayer);
+
+    System.out.println("JSON from Game for Player: " + newGame.getJson());
   }
 
   /** Test for WeatherConditions */
@@ -65,6 +97,10 @@ public class Main {
     System.out.println(wForecast.toString());
   }
 
+  /**
+   * Test using the JSONs with some Comparators to get the highest temps and wind speeds for each
+   * and list in decreasing order.
+   */
   public static void weatherFiveCityTest() {
     // Cities to hold
     List<WeatherForecast> cities = new ArrayList<>();
@@ -102,23 +138,19 @@ public class Main {
       cityTemps.put(item.getCity().getName(), item.getList().get(0).getMeasurements().get("temp"));
     }
 
-    //LinkedHashMaps for Sorted Maps
+    // LinkedHashMaps for Sorted Maps
     LinkedHashMap<String, Float> sortedCityTemps = new LinkedHashMap<>();
     LinkedHashMap<String, Float> sortedCityWindSpeeds = new LinkedHashMap<>();
 
-
-    //Sort City temps
-    cityTemps.entrySet()
-        .stream()
+    // Sort City temps
+    cityTemps.entrySet().stream()
         .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
         .forEachOrdered(x -> sortedCityTemps.put(x.getKey(), x.getValue()));
 
-    //Sort City Wind Speeds
-    cityWindSpeeds.entrySet()
-        .stream()
+    // Sort City Wind Speeds
+    cityWindSpeeds.entrySet().stream()
         .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
         .forEachOrdered(x -> sortedCityWindSpeeds.put(x.getKey(), x.getValue()));
-
 
     System.out.println("\nHighest Wind Speeds:");
     // Output Wind speeds
