@@ -32,19 +32,19 @@ public class Main {
   // Variable
   private static Scanner scanner = new Scanner(System.in);
   // Must provide a OpenWeatherMap api (This has been deleted for security)
-  private static String api = "53788e522a20fc3ec2b53601f2dc02d7";
+  private static String api = "";
 
   public static void main(String args[]) {
 
     // First three tests will be for reaching Json from the web and creating objects from them
     // Test WeatherConditions
-    // weatherConditionsTest();
+    weatherConditionsTest();
 
     // Test WeatherForecast
-    // weatherForecastTest();
+    weatherForecastTest();
 
     // 5 City Test
-    // weatherFiveCityTest();
+    weatherFiveCityTest();
 
     // Creating a json from a couple classes
     // Character Generate into Json from Game
