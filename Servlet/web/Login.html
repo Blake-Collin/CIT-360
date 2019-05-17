@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Servlet Main Page">
+    <meta name="author" content="Collin Blake">
+  </head>
+  <body>
+    <form action="PasswordServlet" method="post">
+      <p>E-Mail:<input type="email" name="email" placeholder="johnsmith@example.com"></p>
+      <p>Username<input type="text" name="username" placeholder="JohnSmith45" required autofocus></p>
+      <p>Password<input type="password" name="password" pattern="{8,99}"></p>
+      <p>Favorite Color<input type="color" name="color"></p>
+      <p><input type="submit" value="Login"></p>
+    </form>
+  </body>
+</html>
