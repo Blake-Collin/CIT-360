@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c59ff23-fcd5-473f-a990-cd636d00f4a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../JSON/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSON/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="9c59ff23-fcd5-473f-a990-cd636d00f4a2" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,14 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Collections.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#491#499#0" expanded="true" />
-                <element signature="e#717#725#0" expanded="true" />
-                <element signature="e#781#789#0" expanded="true" />
-                <element signature="e#1068#1076#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="612">
+              <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -76,8 +68,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,6 +107,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -176,6 +168,7 @@
       <workItem from="1557190744407" duration="26000" />
       <workItem from="1557273821695" duration="1761000" />
       <workItem from="1557364875436" duration="6550000" />
+      <workItem from="1558568486192" duration="693000" />
     </task>
     <task id="LOCAL-00001" summary="Collections Testing">
       <created>1556751298594</created>
@@ -247,11 +240,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557370532405</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="New MVC Diagram &amp; State Diagram">
+      <created>1558568555044</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1558568555044</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9394000" />
+    <option name="totallyTimeSpent" value="10087000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -264,9 +264,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2771855" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2803838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -309,7 +308,8 @@
     <MESSAGE value="User Case Diagram" />
     <MESSAGE value="Coding Style Notes" />
     <MESSAGE value="Updated with Set Map &amp; Tree tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated with Set Map &amp; Tree tests" />
+    <MESSAGE value="New MVC Diagram &amp; State Diagram" />
+    <option name="LAST_COMMIT_MESSAGE" value="New MVC Diagram &amp; State Diagram" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/Consumer.java">
@@ -321,14 +321,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Collections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#491#499#0" expanded="true" />
-            <element signature="e#717#725#0" expanded="true" />
-            <element signature="e#781#789#0" expanded="true" />
-            <element signature="e#1068#1076#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="612">
+          <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
         </state>
       </provider>
     </entry>
