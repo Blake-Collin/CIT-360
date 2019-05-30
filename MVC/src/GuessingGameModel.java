@@ -10,7 +10,8 @@ public class GuessingGameModel {
   public GuessingGameModel() {
     answer = random.nextInt(1000);
     lastGuess = 0;
-    System.out.println(answer);
+    //For showing answer for testing purposes
+    //System.out.println(answer);
   }
 
   public int getLastGuess() {
