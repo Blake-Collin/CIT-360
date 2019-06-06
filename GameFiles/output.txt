@@ -1,0 +1,9 @@
+Tools in the City of Aaron:
+Tools                Amount    
+Hammers              823
+Shovels              523
+Hoes                 923
+Pickaxes             243
+Rakes                513
+Hand Saws            323
+SledgeHammers        623
