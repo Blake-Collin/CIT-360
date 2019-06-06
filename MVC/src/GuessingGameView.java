@@ -3,10 +3,11 @@ import java.util.Scanner;
 public class GuessingGameView {
   protected static final Scanner keyboard = new Scanner(System.in);
   String menu = "Main Menu:\n1) Start Game\n2) Exit Game\n";
-  GuessingGameModel gameData = null;
-  GuessingGameControl gameControl = new GuessingGameControl();
+  GuessingGameControl gameControl;
 
-  public GuessingGameView() {}
+  public GuessingGameView(GuessingGameControl gameControl) {
+    this.gameControl = gameControl;
+  }
 
   public void displayMenu() {
     int menuOption = 0;
@@ -43,10 +44,6 @@ public class GuessingGameView {
 
   public void startNewGame() {
     System.out.println("Welcome you are to guess a the number between 1 and 1000. Good luck!");
-    GuessingGameModel game = new GuessingGameModel();
-    GuessingGame.setGame(game);
-
-    gameData = GuessingGame.getGame();
 
     mainGameLoop();
   }
@@ -60,9 +57,9 @@ public class GuessingGameView {
         System.out.format("Error: input value must be between 1 and %d.", 1000);
       }
       else{
-        System.out.println(gameControl.hotCold(userGuess, gameData));
+        System.out.println(gameControl.hotCold(userGuess));
       }
 
-    } while (!gameControl.correctAnswser(userGuess, gameData));
+    } while (!gameControl.correctAnwser(userGuess));
   }
 }

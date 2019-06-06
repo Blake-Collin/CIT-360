@@ -1,20 +1,29 @@
 public class GuessingGameControl {
 
-  public boolean correctAnswser(int userInput, GuessingGameModel game) {
-    return userInput == game.getAnswer();
+  GuessingGameModel gameModel = new GuessingGameModel();
+  GuessingGameView gameView = new GuessingGameView(this);
+
+  public GuessingGameControl() {
+    gameView.displayMenu();
   }
 
-  public String hotCold(int userInput, GuessingGameModel game) {
-    String returnString = "";
-    if (userInput == game.getAnswer()) {
-      returnString = "You Win! It was " + game.getAnswer() + "!";
-    } else if (getDistance(userInput, game.getAnswer()) > (getDistance(game.getLastGuess(), game.getAnswer()))) {
+  public boolean correctAnwser(int userInput) {
+    return userInput == gameModel.getAnswer();
+  }
+
+  public String hotCold(int userInput) {
+    String returnString;
+    if (userInput == gameModel.getAnswer()) {
+      returnString = "You Win! It was " + gameModel.getAnswer() + "!";
+    } else if (getDistance(userInput, gameModel.getAnswer()) > (getDistance(gameModel.getLastGuess(), gameModel.getAnswer()))) {
       returnString = "Colder";
-    } else if(getDistance(userInput, game.getAnswer()) < (getDistance(game.getLastGuess(), game.getAnswer()))){
+    } else if(getDistance(userInput, gameModel.getAnswer()) < (getDistance(gameModel.getLastGuess(), gameModel.getAnswer()))){
       returnString = "Warmer";
+    } else {
+      returnString = "About the Same";
     }
 
-    game.setLastGuess(userInput);
+    gameModel.setLastGuess(userInput);
     return returnString;
   }
 
