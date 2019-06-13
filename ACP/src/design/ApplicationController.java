@@ -16,7 +16,7 @@ public class ApplicationController {
 
   public String mapViewToPage(String view) {
     String page = null;
-    if (view == "viewStudent") {
+    if (view == "showStudent") {
       page = "viewStudent.jsp";
     } else if (view == "showBank") {
       page = "viewBank.jsp";

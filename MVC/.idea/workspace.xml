@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f98787e-cf31-4f80-bc9b-a2e3cd99d3c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HibernateExample/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HibernateExample/.idea/libraries/Hibernate_5_4_2_5_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HibernateExample/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HibernateExample/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HibernateExample/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HibernateExample/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HibernateExample/HibernateExample.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HibernateExample/src/com/HibernateExample/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Threads/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Threads/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTTPURL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HTTPURL/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTTPURL/Google.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HTTPURL/Google.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HibernateExample/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GuessingGameControl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <state relative-caret-position="136">
+              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
               <folding>
                 <element signature="e#183#184#0" expanded="true" />
                 <element signature="e#215#216#0" expanded="true" />
@@ -50,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GuessingGameView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
-              <caret line="62" column="52" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
+            <state relative-caret-position="85">
+              <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
               <folding>
                 <element signature="e#283#284#0" expanded="true" />
                 <element signature="e#323#324#0" expanded="true" />
@@ -181,6 +174,7 @@
       <workItem from="1559770450564" duration="120000" />
       <workItem from="1559780205148" duration="769000" />
       <workItem from="1559781715382" duration="1636000" />
+      <workItem from="1560299637391" duration="89000" />
     </task>
     <task id="LOCAL-00001" summary="MVC Code Base Simple">
       <created>1559169201010</created>
@@ -214,13 +208,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11268000" />
+    <option name="totallyTimeSpent" value="11357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13059701" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13166311" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -229,13 +223,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3290461" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.3290461" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49946696" visible="true" weight="0.3290461" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4989339" weight="0.3290461" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3290461" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.3290461" />
@@ -261,13 +255,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="MVC &amp; Threads" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/GuessingGameModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GuessingGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -277,8 +264,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GuessingGameView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" column="52" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
+        <state relative-caret-position="85">
+          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
           <folding>
             <element signature="e#283#284#0" expanded="true" />
             <element signature="e#323#324#0" expanded="true" />
@@ -286,10 +273,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/GuessingGameModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/GuessingGameControl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        <state relative-caret-position="136">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
           <folding>
             <element signature="e#183#184#0" expanded="true" />
             <element signature="e#215#216#0" expanded="true" />
