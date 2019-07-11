@@ -3,11 +3,14 @@ package com.example.ebayscraper;
 import android.app.Activity;
 import android.util.Log;
 import android.widget.TextView;
+import com.google.gson.Gson;
 import java.lang.ref.WeakReference;
+import java.text.DecimalFormat;
 import java.util.concurrent.ExecutionException;
 
 public class ebayHistorical implements ebayFunctions {
 
+  private static DecimalFormat df2 = new DecimalFormat("#.00");
   private static final String TAG = "ebayHistorical";
   private static final String URL =
       "http://10.0.2.2:8080/ebayScraperServlet_war_exploded/ebayHelperServlet";
@@ -21,7 +24,8 @@ public class ebayHistorical implements ebayFunctions {
     ebayServletCaller task = new ebayServletCaller();
 
     String myValue = null;
-    String processURL = this.URL + "?operation=historical&search=" + (searchPhrase.replace(" ", "%20"));
+    String processURL = this.URL + "?&operation=historical&search=" + searchPhrase.replace(" ", "%20");
+
     Log.i(TAG, "Test: " + processURL);
     try {
       myValue = task.execute(new String[] {processURL}).get();
@@ -32,19 +36,14 @@ public class ebayHistorical implements ebayFunctions {
     }
 
     //Json to ebayRecord object here and then setup our view
+    Gson gson = new Gson();
+    eBayRecord record = null;
+    record = gson.fromJson(myValue, eBayRecord.class);
 
 
+    //Display
     Log.i(TAG, "Sending to display");
-    // Output to display
-    final String finalMyValue;
-    if(myValue != null)
-    {
-      finalMyValue = myValue;
-    }
-    else
-    {
-      finalMyValue = "Failed";
-    }
+    final eBayRecord finalRecord = record;
     activity
         .get()
         .runOnUiThread(
@@ -53,23 +52,23 @@ public class ebayHistorical implements ebayFunctions {
               public void run() {
                 ((TextView) activity.get().findViewById(R.id.textViewFieldTitle1)).setText("Item:");
                 ((TextView) activity.get().findViewById(R.id.textViewFieldValue1))
-                    .setText(searchPhrase);
+                    .setText(finalRecord.getSearchValue());
                 ((TextView) activity.get().findViewById(R.id.textViewFieldTitle2))
                     .setText("Historical Average:");
                 ((TextView) activity.get().findViewById(R.id.textViewFieldValue2))
-                    .setText("$" + "9.99");
+                    .setText("$" + df2.format(finalRecord.getAverage()));
                 ((TextView) activity.get().findViewById(R.id.textViewFieldTitle3))
                     .setText("Historical Low:");
                 ((TextView) activity.get().findViewById(R.id.textViewFieldValue3))
-                    .setText("$" + "99.99");
+                    .setText("$" + df2.format(finalRecord.getHistoricalLow()));
                 ((TextView) activity.get().findViewById(R.id.textViewFieldTitle4))
                     .setText("Historical High:");
                 ((TextView) activity.get().findViewById(R.id.textViewFieldValue4))
-                    .setText("$" + "99.99");
+                    .setText("$" + df2.format(finalRecord.getHistoricalHigh()));
                 ((TextView) activity.get().findViewById(R.id.textViewFieldTitle5))
                     .setText("Total Count:");
                 ((TextView) activity.get().findViewById(R.id.textViewFieldValue5))
-                    .setText(finalMyValue);
+                    .setText(Integer.toString(finalRecord.getTotalCounted()));
               }
             });
   }

@@ -1,6 +1,5 @@
 package ebay;
 
-import java.lang.ref.WeakReference;
 import java.util.HashMap;
 
 public class ApplicationController {

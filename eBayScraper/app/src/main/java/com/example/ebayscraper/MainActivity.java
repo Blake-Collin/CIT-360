@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
   public void onPress(View view) {
     Log.i(TAG, "Clear our output fields to start");
     clearOutputFields();
+    ((TextView) findViewById(R.id.textViewFieldTitle1)).setText("Querying Please Wait...");
 
     Log.i(TAG, "Starting our new search");
     String searchPhrase = ((EditText) findViewById(R.id.editTextSearchValue)).getText().toString();

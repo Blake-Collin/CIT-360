@@ -7,6 +7,8 @@ public class eBayRecord {
   private double historicalHigh;
   private double historicalLow;
   private double average;
+  private double currentLow;
+  private double currentHigh;
 
   // Getters
   public String getSearchValue() {
@@ -33,6 +35,14 @@ public class eBayRecord {
     return average;
   }
 
+  public double getCurrentLow() {
+    return currentLow;
+  }
+
+  public double getCurrentHigh() {
+    return currentHigh;
+  }
+
   // Setters
 
   public void setSearchValue(String searchValue) {
@@ -57,5 +67,12 @@ public class eBayRecord {
 
   public void setAverage(double average) {
     this.average = average;
+  }
+
+  public void setCurrentLow(double currentLow) {
+    this.currentLow = currentLow;
+  }
+  public void setCurrentHigh(double currentHigh) {
+    this.currentHigh = currentHigh;
   }
 }

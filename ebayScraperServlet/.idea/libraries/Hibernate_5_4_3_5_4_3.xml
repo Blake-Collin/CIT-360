@@ -21,6 +21,7 @@
       <root url="jar://$PROJECT_DIR$/lib/jaxb-runtime-2.3.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/hibernate-core-5.4.3.Final.jar!/" />
       <root url="jar://D:/Downloads/mysql-connector-java-5.1.47/mysql-connector-java-5.1.47-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jsoup-1.12.1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

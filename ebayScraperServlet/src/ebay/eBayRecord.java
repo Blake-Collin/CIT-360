@@ -25,6 +25,35 @@ public class eBayRecord {
   @Column(name = "average")
   private double average;
 
+  @Column(name ="currentlow")
+  private double currentLow;
+
+  @Column(name = "currenthigh")
+  private double currentHigh;
+
+
+  public eBayRecord() {
+    this.searchValue = "";
+    this.totalAmount = 0;
+    this.totalAmount = 0.0;
+    this.historicalHigh = 0.0;
+    this.historicalLow = 100000.0;
+    this.average = 0.0;
+    this.currentLow = 100000.0;
+    this.currentHigh = 0.0;
+  }
+
+  public eBayRecord(String searchValue) {
+    this.searchValue = searchValue;
+    this.totalAmount = 0;
+    this.totalAmount = 0.0;
+    this.historicalHigh = 0.0;
+    this.historicalLow = 100000.0;
+    this.average = 0.0;
+    this.currentLow = 100000.0;
+    this.currentHigh = 0.0;
+  }
+
   // Getters
   public String getSearchValue() {
     return searchValue;
@@ -48,6 +77,14 @@ public class eBayRecord {
 
   public double getAverage() {
     return average;
+  }
+
+  public double getCurrentLow() {
+    return currentLow;
+  }
+
+  public double getCurrentHigh() {
+    return currentHigh;
   }
 
   // Setters
@@ -74,5 +111,13 @@ public class eBayRecord {
 
   public void setAverage(double average) {
     this.average = average;
+  }
+
+  public void setCurrentLow(double currentLow) {
+    this.currentLow = currentLow;
+  }
+
+  public void setCurrentHigh(double currentHigh) {
+    this.currentHigh = currentHigh;
   }
 }

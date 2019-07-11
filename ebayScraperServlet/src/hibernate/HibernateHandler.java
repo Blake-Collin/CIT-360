@@ -1,8 +1,10 @@
 package hibernate;
 
+import java.util.List;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import ebay.eBayRecord;
+import org.hibernate.query.Query;
 
 public class HibernateHandler {
 
@@ -14,6 +16,7 @@ public class HibernateHandler {
     if (single_instance == null) {
       single_instance = new HibernateHandler();
     }
+    System.out.println("Getting Instance");
     return single_instance;
   }
 
@@ -25,8 +28,9 @@ public class HibernateHandler {
     try {
       session = factory.openSession();
       session.getTransaction().begin();
-      String sql = "from ebay.eBayRecord where id=" + searchPhrase;
-      eBayRecord record = (eBayRecord) session.createQuery(sql).getSingleResult();
+      Query query = session.createQuery("from ebay.eBayRecord where id= :id");
+      query.setParameter("id", searchPhrase);
+      eBayRecord record = (eBayRecord) query.getSingleResult();
       session.getTransaction().commit();
       return record;
     } catch (Exception e) {
@@ -39,11 +43,27 @@ public class HibernateHandler {
   }
 
   public boolean containsRecord(String searchPhrase) {
-//    session = factory.openSession();
-//    Query query = session.createQuery("from ebay.eBayRecord where id=" + searchPhrase);
-//    return (query.uniqueResult() != null);
+    try {
+      session = factory.openSession();
+      Query query = session.createQuery("from  ebay.eBayRecord where id = :id");
+      query.setParameter("id", searchPhrase);
+      List<?> list = query.list();
 
-    return false;
+      if(list.isEmpty()) {
+        return false;
+      }
+      else {
+        return true;
+      }
+
+
+    } catch (Exception e) {
+      System.err.println("Error in Test: " + e);
+      session.getTransaction().rollback();
+      return false;
+    } finally {
+      session.close();
+    }
   }
 
   public void addRecord(eBayRecord ebayRecord) {
@@ -66,7 +86,7 @@ public class HibernateHandler {
       session = factory.openSession();
       session.getTransaction().begin();
 
-      session.update(ebayRecord);
+      session.saveOrUpdate(ebayRecord);
       session.getTransaction().commit();
     } catch (Exception e) {
       System.err.println("Error in Test: " + e);

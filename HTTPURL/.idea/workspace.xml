@@ -2,9 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e19ccce5-60e9-4e79-9a4f-cca02e303b10" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Google.html" beforeDir="false" afterPath="$PROJECT_DIR$/Google.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/.idea/libraries/org_jsoup_jsoup_1_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/lib/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/lib/byte-buddy-1.9.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/lib/classmate-1.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/lib/dom4j-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/lib/gson-2.8.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/lib/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/lib/hibernate-core-5.4.3.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/lib/jandex-2.0.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/lib/javassist-3.24.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/lib/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/lib/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/src/ebay/ebayAPICaller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HibernateExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HibernateExample/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateExample/HibernateExample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../HibernateExample/HibernateExample.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eBayScraper/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../eBayScraper/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eBayScraper/app/src/main/java/com/example/ebayscraper/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eBayScraper/app/src/main/java/com/example/ebayscraper/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eBayScraper/app/src/main/java/com/example/ebayscraper/ebayHistorical.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eBayScraper/app/src/main/java/com/example/ebayscraper/ebayHistorical.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eBayScraper/app/src/main/java/com/example/ebayscraper/ebayScrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eBayScraper/app/src/main/java/com/example/ebayscraper/ebayScrap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eBayScraper/app/src/main/java/com/example/ebayscraper/ebayServletCaller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eBayScraper/app/src/main/java/com/example/ebayscraper/ebayServletCaller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ebayScraperServlet/.idea/artifacts/ebayScraperServlet_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ebayScraperServlet/.idea/artifacts/ebayScraperServlet_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ebayScraperServlet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ebayScraperServlet/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ebayScraperServlet/ebayScraperServlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ebayScraperServlet/ebayScraperServlet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ebayScraperServlet/src/ebay/eBayRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ebayScraperServlet/src/ebay/eBayRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ebayScraperServlet/src/ebay/ebayHelperServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ebayScraperServlet/src/ebay/ebayHelperServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ebayScraperServlet/src/ebay/ebayHistorical.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ebayScraperServlet/src/ebay/ebayHistorical.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ebayScraperServlet/src/ebay/ebayScrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ebayScraperServlet/src/ebay/ebayScrap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ebayScraperServlet/src/hibernate/HibernateHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ebayScraperServlet/src/hibernate/HibernateHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ebayScraperServlet/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ebayScraperServlet/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HTTPURLTesting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="33" column="47" lean-forward="true" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+            <state relative-caret-position="-51">
+              <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,10 +96,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="974" />
-    <option name="height" value="1057" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -71,6 +107,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -87,8 +125,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -133,6 +169,7 @@
       <workItem from="1557961749223" duration="5789000" />
       <workItem from="1559171667370" duration="6109000" />
       <workItem from="1560298472850" duration="709000" />
+      <workItem from="1562881768354" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="HTTPURLConnection &amp; Sequence Diagram">
       <created>1559177065016</created>
@@ -152,7 +189,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12607000" />
+    <option name="totallyTimeSpent" value="13206000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -167,7 +204,7 @@
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -212,8 +249,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HTTPURLTesting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="33" column="47" lean-forward="true" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+        <state relative-caret-position="-51">
+          <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
