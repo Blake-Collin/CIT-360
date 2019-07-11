@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<androidx.constraintlayout.widget.ConstraintLayout
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:app="http://schemas.android.com/apk/res-auto"
   xmlns:tools="http://schemas.android.com/tools"
@@ -11,10 +11,10 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_marginEnd="16dp"
+    android:onClick="onPress"
     android:text="@string/buttonStartText"
     app:layout_constraintBaseline_toBaselineOf="@+id/editTextSearchValue"
-    app:layout_constraintEnd_toEndOf="parent"
-    />
+    app:layout_constraintEnd_toEndOf="parent"/>
   <EditText
     android:id="@+id/editTextSearchValue"
     android:layout_width="0dp"
@@ -31,7 +31,7 @@
   <RadioGroup
     android:id="@+id/radioGroup"
     android:layout_width="0dp"
-    android:layout_height="63dp"
+    android:layout_height="wrap_content"
     android:layout_marginTop="12dp"
     android:layout_marginStart="16dp"
     android:layout_marginEnd="16dp"
@@ -50,11 +50,12 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_weight="0"
+      android:checked="true"
       android:text="@string/scrapRadioButton"/>
   </RadioGroup>
   <TextView
     android:id="@+id/textViewFieldTitle1"
-    android:layout_width="0dp"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_marginTop="32dp"
     android:layout_marginStart="16dp"
@@ -76,7 +77,7 @@
     app:layout_constraintStart_toEndOf="@+id/textViewFieldTitle1"/>
   <TextView
     android:id="@+id/textViewFieldTitle2"
-    android:layout_width="0dp"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_marginTop="24dp"
     android:layout_marginStart="16dp"
@@ -140,4 +141,26 @@
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintHorizontal_bias="0.0"
     app:layout_constraintStart_toEndOf="@+id/textViewFieldTitle4"/>
-</android.support.constraint.ConstraintLayout>
+  <TextView
+    android:id="@+id/textViewFieldTitle5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="24dp"
+    android:layout_marginStart="16dp"
+    android:text="Temp"
+    android:textSize="24sp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textViewFieldTitle4"/>
+  <TextView
+    android:id="@+id/textViewFieldValue5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:text="TextView"
+    android:textSize="18sp"
+    app:layout_constraintBaseline_toBaselineOf="@+id/textViewFieldTitle5"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toEndOf="@+id/textViewFieldTitle5"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

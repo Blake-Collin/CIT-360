@@ -2,9 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9310dbe9-fdb6-4196-95fa-340ea0fababf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../HTTPURL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HTTPURL/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HTTPURL/Google.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HTTPURL/Google.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eBayScraper/app/src/main/java/com/example/ebayscraper/ebayFunctions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eBayScraper/app/src/main/java/com/example/ebayscraper/ebayHistorical.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eBayScraper/app/src/main/java/com/example/ebayscraper/ebayScrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eBayScraper/app/src/main/java/com/example/ebayscraper/ebayServletCaller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/.idea/artifacts/ebayScraperServlet_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/.idea/libraries/Hibernate_5_4_3_5_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/.idea/libraries/com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/ebayScraperServlet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/src/ebay/ApplicationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/src/ebay/eBayRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/src/ebay/ebayFunctions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/src/ebay/ebayHelperServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/src/ebay/ebayHistorical.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/src/ebay/ebayScrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/src/hibernate/HibernateHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/src/hibernate/HibernateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/src/hibernate/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebayScraperServlet/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/HibernateExample/HibernateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/HibernateExample/HibernateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/HibernateExample/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/HibernateExample/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Threads/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Threads/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eBayScraper/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../eBayScraper/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eBayScraper/app/src/androidTest/java/com/example/ebayscraper/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eBayScraper/app/src/androidTest/java/com/example/ebayscraper/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eBayScraper/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eBayScraper/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eBayScraper/app/src/main/java/com/example/ebayscraper/ApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eBayScraper/app/src/main/java/com/example/ebayscraper/ApplicationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eBayScraper/app/src/main/java/com/example/ebayscraper/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eBayScraper/app/src/main/java/com/example/ebayscraper/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eBayScraper/app/src/main/java/com/example/ebayscraper/eBayAPICaller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eBayScraper/app/src/main/java/com/example/ebayscraper/eBayRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eBayScraper/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eBayScraper/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eBayScraper/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../eBayScraper/gradle.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +61,7 @@
     <select />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="HibernateExample" />
@@ -39,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/HibernateExample/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-end-line="6" selection-end-column="25" />
+            <state relative-caret-position="255">
+              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -48,29 +80,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/HibernateExample/HibernateUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/HibernateExample/HibernateUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+              <folding>
+                <element signature="e#969#970#0" expanded="true" />
+                <element signature="e#1000#1001#0" expanded="true" />
+                <element signature="e#1035#1036#0" expanded="true" />
+                <element signature="e#1072#1073#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/HibernateExample/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+            <state relative-caret-position="119">
+              <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#412#413#0" expanded="true" />
@@ -84,19 +119,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HibernateExample.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/HibernateExample/Run.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="119">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -118,19 +144,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/HibernateExample/Runner.java" />
-        <option value="$PROJECT_DIR$/src/com/HibernateExample/HibernateUtils.java" />
         <option value="$PROJECT_DIR$/src/com/HibernateExample/Customer.java" />
         <option value="$PROJECT_DIR$/src/com/HibernateExample/Run.java" />
-        <option value="$PROJECT_DIR$/src/com/HibernateExample/Test.java" />
         <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/com/HibernateExample/HibernateUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/HibernateExample/Test.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
-    <option name="width" value="974" />
-    <option name="height" value="1057" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -144,6 +170,11 @@
             <path>
               <item name="HibernateExample" type="b2602c69:ProjectViewProjectNode" />
               <item name="HibernateExample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HibernateExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HibernateExample" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HibernateExample" type="b2602c69:ProjectViewProjectNode" />
@@ -164,8 +195,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -215,6 +246,9 @@
       <workItem from="1559783950484" duration="8605000" />
       <workItem from="1560289845047" duration="657000" />
       <workItem from="1560297839060" duration="1164000" />
+      <workItem from="1562455363113" duration="1453000" />
+      <workItem from="1562717818295" duration="7603000" />
+      <workItem from="1562796642513" duration="5537000" />
     </task>
     <task id="LOCAL-00001" summary="Hibernate added">
       <created>1559791752471</created>
@@ -234,30 +268,30 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10426000" />
+    <option name="totallyTimeSpent" value="25019000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49732047" visible="true" weight="0.12899786" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.686901" visible="true" weight="0.23614073" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
-      <window_info id="Persistence" order="3" sideWeight="0.5026795" side_tool="true" visible="true" weight="0.12899786" />
+      <window_info active="true" id="Persistence" order="3" sideWeight="0.31309903" side_tool="true" visible="true" weight="0.23614073" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="UI Designer" order="6" />
       <window_info id="Favorites" order="7" sideWeight="0.5005359" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3290461" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.3290461" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3290461" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.3290461" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -282,31 +316,51 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/HibernateExample/Runner.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/HibernateExample/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/HibernateExample/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-end-line="6" selection-end-column="25" />
+        <state relative-caret-position="255">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HibernateExample.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/HibernateExample/HibernateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <folding>
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1072#1073#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/HibernateExample/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/HibernateExample/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        <state relative-caret-position="119">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#412#413#0" expanded="true" />
@@ -314,23 +368,6 @@
             <element signature="e#0#34#1" expanded="true" />
             <element signature="e#0#56#1" expanded="true" />
             <element signature="e#0#34#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/HibernateExample/HibernateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -385,7 +422,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Hibernate|HibernateExample</last-edited>
+          <last-edited>HibernateExample</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

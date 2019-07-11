@@ -83,7 +83,7 @@ public class Test {
       customer.setAddress(address);
       customer.setPhone(phone);
 
-      session.save(customer);
+      session.saveOrUpdate(customer);
       session.getTransaction().commit();
     } catch (Exception e) {
       System.err.println("Error in Test: " + e);

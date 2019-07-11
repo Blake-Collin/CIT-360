@@ -1,14 +1,21 @@
 package com.example.ebayscraper;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import androidx.appcompat.app.AppCompatActivity;
+import android.util.Log;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.RadioButton;
 import android.widget.TextView;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
+  private static final String TAG = "MainActivity";
+
   /**
    * Main onCreat method for our first & only activity
+   *
    * @param savedInstanceState
    */
   @Override
@@ -20,54 +27,46 @@ public class MainActivity extends AppCompatActivity {
     clearOutputFields();
   }
 
-  /**
-   * clearOutputFields will clear all our code editable information.
-   *
-   */
+  /** clearOutputFields will clear all our code editable information. */
   protected void clearOutputFields() {
     ArrayList<TextView> tv = new ArrayList<>();
     tv.add((TextView) findViewById(R.id.textViewFieldTitle1));
     tv.add((TextView) findViewById(R.id.textViewFieldTitle2));
     tv.add((TextView) findViewById(R.id.textViewFieldTitle3));
     tv.add((TextView) findViewById(R.id.textViewFieldTitle4));
+    tv.add((TextView) findViewById(R.id.textViewFieldTitle5));
     tv.add((TextView) findViewById(R.id.textViewFieldValue1));
     tv.add((TextView) findViewById(R.id.textViewFieldValue2));
     tv.add((TextView) findViewById(R.id.textViewFieldValue3));
     tv.add((TextView) findViewById(R.id.textViewFieldValue4));
+    tv.add((TextView) findViewById(R.id.textViewFieldValue5));
 
     for (TextView tvi : tv) {
       tvi.setText("");
     }
   }
 
-  /**
-   * Easy method to setup our output values to the user.
-   *
-   * @param title1
-   * @param value1
-   * @param title2
-   * @param value2
-   * @param title3
-   * @param value3
-   * @param title4
-   * @param value4
-   */
-  public void setOutPutFields(
-      String title1,
-      String value1,
-      String title2,
-      String value2,
-      String title3,
-      String value3,
-      String title4,
-      String value4) {
-    ((TextView) findViewById(R.id.textViewFieldTitle1)).setText(title1);
-    ((TextView) findViewById(R.id.textViewFieldValue1)).setText(value1);
-    ((TextView) findViewById(R.id.textViewFieldTitle2)).setText(title2);
-    ((TextView) findViewById(R.id.textViewFieldValue2)).setText(value2);
-    ((TextView) findViewById(R.id.textViewFieldTitle3)).setText(title3);
-    ((TextView) findViewById(R.id.textViewFieldValue3)).setText(value3);
-    ((TextView) findViewById(R.id.textViewFieldTitle4)).setText(title4);
-    ((TextView) findViewById(R.id.textViewFieldValue4)).setText(value4);
+  public void onPress(View view) {
+    Log.i(TAG, "Clear our output fields to start");
+    clearOutputFields();
+
+    Log.i(TAG, "Starting our new search");
+    String searchPhrase = ((EditText) findViewById(R.id.editTextSearchValue)).getText().toString();
+    Log.i(TAG, "searchPhrase Set to: " + searchPhrase);
+    String operation = null;
+
+    //Can expand if more operations is needed
+    if (((RadioButton) findViewById(R.id.radioButtonHistorical)).isChecked()) {
+      operation = "historical";
+    }
+    else if (((RadioButton) findViewById(R.id.radioButtonScrap)).isChecked()) {
+      operation = "scrap";
+    }
+
+    //Create and run our new thread.
+    Log.i(TAG, "Starting thread eBay" + operation);
+    ApplicationController applicationController = new ApplicationController(this, searchPhrase, operation);
+    Thread thread = new Thread(applicationController, "eBay" + operation);
+    thread.start();
   }
 }
