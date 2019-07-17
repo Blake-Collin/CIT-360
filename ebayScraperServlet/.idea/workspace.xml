@@ -7,48 +7,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d86235b-3da4-4951-ac40-fca3aba630bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_jsoup_jsoup_1_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastInfoset-1.2.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/antlr-2.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/byte-buddy-1.9.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/classmate-1.3.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/dom4j-2.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/gson-2.8.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hibernate-core-5.4.3.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jandex-2.0.5.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javassist-3.24.0-GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.persistence-api-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jaxb-api-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jsoup-1.12.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/stax-ex-1.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/txw2-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ebay/ebayAPICaller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ACP2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ACP2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HTTPURL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HTTPURL/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HibernateExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HibernateExample/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HibernateExample/HibernateExample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../HibernateExample/HibernateExample.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eBayScraper/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../eBayScraper/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eBayScraper/app/src/main/java/com/example/ebayscraper/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eBayScraper/app/src/main/java/com/example/ebayscraper/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eBayScraper/app/src/main/java/com/example/ebayscraper/ebayHistorical.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eBayScraper/app/src/main/java/com/example/ebayscraper/ebayHistorical.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eBayScraper/app/src/main/java/com/example/ebayscraper/ebayScrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eBayScraper/app/src/main/java/com/example/ebayscraper/ebayScrap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eBayScraper/app/src/main/java/com/example/ebayscraper/ebayServletCaller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eBayScraper/app/src/main/java/com/example/ebayscraper/ebayServletCaller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ebayScraperServlet_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ebayScraperServlet_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Hibernate_5_4_3_5_4_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Hibernate_5_4_3_5_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/WEB-INF/classes/META-INF/ebayScraperServlet.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/WEB-INF/classes/ebay/ApplicationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/WEB-INF/classes/ebay/eBayRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/WEB-INF/classes/ebay/ebayAPICaller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/WEB-INF/classes/ebay/ebayFunctions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/WEB-INF/classes/ebay/ebayHelperServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/WEB-INF/classes/ebay/ebayHistorical.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/WEB-INF/classes/ebay/ebayScrap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/WEB-INF/classes/hibernate/HibernateHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/WEB-INF/classes/hibernate/HibernateUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/WEB-INF/classes/hibernate/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/WEB-INF/lib/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/WEB-INF/lib/byte-buddy-1.9.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/WEB-INF/lib/classmate-1.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/WEB-INF/lib/dom4j-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/WEB-INF/lib/gson-2.8.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/WEB-INF/lib/hibernate-core-5.4.3.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/WEB-INF/lib/jandex-2.0.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/WEB-INF/lib/javassist-3.24.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/WEB-INF/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/WEB-INF/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/WEB-INF/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/WEB-INF/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.47-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/WEB-INF/lib/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/WEB-INF/lib/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ebayScraperServlet_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ebayScraperServlet/META-INF/ebayScraperServlet.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ebayScraperServlet/ebay/ApplicationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ebayScraperServlet/ebay/eBayRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ebayScraperServlet/ebay/ebayAPICaller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ebayScraperServlet/ebay/ebayFunctions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ebayScraperServlet/ebay/ebayHelperServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ebayScraperServlet/ebay/ebayHistorical.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ebayScraperServlet/ebay/ebayScrap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ebayScraperServlet/hibernate/HibernateHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ebayScraperServlet/hibernate/HibernateUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ebayScraperServlet/hibernate/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebayScraperServlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ebayScraperServlet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ebay/ApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ebay/ApplicationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ebay/eBayRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ebay/eBayRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ebay/ebayHelperServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ebay/ebayHelperServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ebay/ebayHistorical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ebay/ebayHistorical.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ebay/ebayScrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ebay/ebayScrap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hibernate/HibernateHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/HibernateHandler.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ebay/ebayScrap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="60" column="22" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+            <state relative-caret-position="187">
+              <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -315,7 +318,7 @@
       <workItem from="1562723590203" duration="10156000" />
       <workItem from="1562795238038" duration="22147000" />
       <workItem from="1562876130772" duration="6323000" />
-      <workItem from="1562883300408" duration="4735000" />
+      <workItem from="1562883300408" duration="5155000" />
     </task>
     <task id="LOCAL-00001" summary="eBayScraper Program &amp; Server">
       <created>1562806208618</created>
@@ -328,7 +331,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43361000" />
+    <option name="totallyTimeSpent" value="43781000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -354,7 +357,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49093816" visible="true" weight="0.3290461" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49093816" weight="0.3290461" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -541,8 +544,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ebay/ebayScrap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="60" column="22" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+        <state relative-caret-position="187">
+          <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

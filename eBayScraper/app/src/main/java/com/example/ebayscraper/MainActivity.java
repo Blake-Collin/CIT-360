@@ -47,27 +47,33 @@ public class MainActivity extends AppCompatActivity {
   }
 
   public void onPress(View view) {
-    Log.i(TAG, "Clear our output fields to start");
-    clearOutputFields();
-    ((TextView) findViewById(R.id.textViewFieldTitle1)).setText("Querying Please Wait...");
 
-    Log.i(TAG, "Starting our new search");
+    Log.i(TAG, "Getting our search phrase");
     String searchPhrase = ((EditText) findViewById(R.id.editTextSearchValue)).getText().toString();
-    Log.i(TAG, "searchPhrase Set to: " + searchPhrase);
-    String operation = null;
+    if (!searchPhrase.equals("")) {
 
-    //Can expand if more operations is needed
-    if (((RadioButton) findViewById(R.id.radioButtonHistorical)).isChecked()) {
-      operation = "historical";
-    }
-    else if (((RadioButton) findViewById(R.id.radioButtonScrap)).isChecked()) {
-      operation = "scrap";
-    }
+      Log.i(TAG, "Clear our output fields to start");
+      clearOutputFields();
+      ((TextView) findViewById(R.id.textViewFieldTitle1)).setText("Querying Please Wait...");
 
-    //Create and run our new thread.
-    Log.i(TAG, "Starting thread eBay" + operation);
-    ApplicationController applicationController = new ApplicationController(this, searchPhrase, operation);
-    Thread thread = new Thread(applicationController, "eBay" + operation);
-    thread.start();
+      Log.i(TAG, "Starting our new search");
+
+      Log.i(TAG, "searchPhrase Set to: " + searchPhrase);
+      String operation = null;
+
+      // Can expand if more operations is needed
+      if (((RadioButton) findViewById(R.id.radioButtonHistorical)).isChecked()) {
+        operation = "historical";
+      } else if (((RadioButton) findViewById(R.id.radioButtonScrap)).isChecked()) {
+        operation = "scrap";
+      }
+
+      // Create and run our new thread.
+      Log.i(TAG, "Starting thread eBay" + operation);
+      ApplicationController applicationController =
+          new ApplicationController(this, searchPhrase, operation);
+      Thread thread = new Thread(applicationController, "eBay" + operation);
+      thread.start();
+    }
   }
 }
